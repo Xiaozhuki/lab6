@@ -60,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] transNameArray = new String[]{"腳踏車","機車","汽車","巴士"};
+        String[] transNameArray = new String[]{"腳踏車","摩托車","汽車","公車"};
         int[] transPhotoIdArray = new int[]{R.drawable.trans1, R.drawable.trans2,
                 R.drawable.trans3, R.drawable.trans4};
 
-        String[] cubeeNameArray = new String[]{ "哭哭","發抖",
-                "再見","生氣",
-                "昏倒","竊笑",
-                "很棒","你好",
+        String[] cubeeNameArray = new String[]{ "哭泣","發抖",
+                "掰掰","生氣",
+                "昏倒","偷笑",
+                "很好","你好",
                 "驚嚇","大笑"};
         int[] cubeePhotoIdArray = new int[]{R.drawable.cubee1, R.drawable.cubee2,
                 R.drawable.cubee3, R.drawable.cubee4,
@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.cubee7, R.drawable.cubee8,
                 R.drawable.cubee9, R.drawable.cubee10};
 
-        String[] messageArray = new String[]{   "訊息１", "訊息２", "訊息３",
-                "訊息４", "訊息５", "訊息６"};
+        String[] messageArray = new String[]{   "msg１", "msg２", "msg３",
+                "msg４", "msg５", "msg６"};
 
         Data[] transData = new Data[transNameArray.length];
         for (int i = 0; i < transData.length; i++) {
